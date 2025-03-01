@@ -1,0 +1,68 @@
+body {
+    font-family: Arial; /* Nice letters */
+    margin: 0; /* No extra space */
+    background-color: #f0f0f0; /* Light gray like a soft cloud */
+  }
+  
+  header {
+    background-color: #00cc00; /* Bright green top */
+    color: white; /* White words */
+    text-align: center; /* Everything in the middle */
+    padding: 20px; /* Space inside */
+  }
+  
+  header button {
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    padding: 10px; /* Big button */
+    border: none; /* No lines around it */
+  }
+  
+  #items {
+    padding: 20px; /* Space around */
+    text-align: center;
+  }
+  
+  .product {
+    background-color: white; /* White box */
+    padding: 10px;
+    margin: 10px; /* Space between boxes */
+    border: 1px solid gray; /* Little gray line */
+    width: 200px; /* Not too big */
+    display: inline-block; /* Side by side */
+  }
+  
+  .product button {
+    background-color: #0000ff; /* Blue button */
+    color: white;
+    padding: 5px;
+    border: none;
+  }
+  
+  #cart {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #cart-items {
+    list-style-type: none; /* No dots */
+    padding: 0;
+  }
+  
+  #cart button {
+    background-color: #ff4500; /* Orange button */
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  
+  footer {
+    background-color: #333333; /* Dark bottom */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer a {
+    color: #00cc00; /* Green links */
+  }

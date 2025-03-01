@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A3E TAIYE SOLUTIONS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top of the Store -->
+  <header>
+    <h1>A3E TAIYE SOLUTIONS</h1>
+    <p>Welcome to our yummy store!</p>
+    <button onclick="chatWithUs()">Chat with Us</button>
+  </header>
+
+  <!-- Stuff to Buy -->
+  <section id="items">
+    <h2>Our Goodies</h2>
+    <div id="product-list">
+      <div class="product">
+        <h3>Super HOME DELIGHTS</h3>
+        <p>Garri, Kuli Kuli, Palm Oil - $15</p>
+        <button onclick="addToCart('Super HOME DELIGHTS', 15)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Your Basket -->
+  <section id="cart">
+    <h2>Your Basket</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="total">0</span></p>
+    <button onclick="goToPayment()">Pay Now</button>
+  </section>
+
+  <!-- Bottom with Info -->
+  <footer>
+    <p>8 Ejigbo Road, Orisummibare Bus Stop, Alimosho, Lagos</p>
+    <p>Email: <a href="mailto:info@a3etaiyesolutions.ng">info@a3etaiyesolutions.ng</a> | 
+       <a href="mailto:admin@a3etaiyesolutions.ng">admin@a3etaiyesolutions.ng</a></p>
+    <p>Phone: 07025262985 | 07089982385</p>
+    <p>Follow us: 
+       <a href="https://facebook.com/a3etaiyesolutions" target="_blank">Facebook</a> | 
+       <a href="https://x.com/a3etaiyesolutions" target="_blank">X</a> | 
+       <a href="https://instagram.com/a3etaiyesolutions" target="_blank">Instagram</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
